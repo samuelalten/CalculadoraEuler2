@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
  
 # Copiar el archivo JAR al contenedor
-COPY target/mi-aplicacion.jar app.jar
+COPY target/Euler2-1.0.1.jar.jar app.jar
  
 # Exponer el puerto si la app lo necesita
 EXPOSE 8000
