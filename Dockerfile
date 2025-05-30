@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/mi-aplicacion.jar app.jar
  
 # Exponer el puerto si la app lo necesita
-EXPOSE 8080
+EXPOSE 8000
  
 # Comando para lanzar la aplicación
 ENTRYPOINT ["java", "-jar", "app.jar"]
